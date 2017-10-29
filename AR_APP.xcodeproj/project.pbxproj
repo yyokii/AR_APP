@@ -12,6 +12,8 @@
 		B665A8551FA500CC00835CDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B665A8531FA500CC00835CDE /* Main.storyboard */; };
 		B665A8571FA500CC00835CDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B665A8561FA500CC00835CDE /* Assets.xcassets */; };
 		B665A85A1FA500CC00835CDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B665A8581FA500CC00835CDE /* LaunchScreen.storyboard */; };
+		B665A8621FA601B100835CDE /* itemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B665A8611FA601B000835CDE /* itemCell.swift */; };
+		B665A87F1FA6152B00835CDE /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = B665A87E1FA6152B00835CDE /* Models.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B665A8561FA500CC00835CDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B665A8591FA500CC00835CDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B665A85B1FA500CC00835CDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B665A8611FA601B000835CDE /* itemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemCell.swift; sourceTree = "<group>"; };
+		B665A87E1FA6152B00835CDE /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				B665A84F1FA500CC00835CDE /* AppDelegate.swift */,
 				B665A8511FA500CC00835CDE /* ViewController.swift */,
+				B665A8611FA601B000835CDE /* itemCell.swift */,
 				B665A8531FA500CC00835CDE /* Main.storyboard */,
 				B665A8561FA500CC00835CDE /* Assets.xcassets */,
 				B665A8581FA500CC00835CDE /* LaunchScreen.storyboard */,
 				B665A85B1FA500CC00835CDE /* Info.plist */,
+				B665A87E1FA6152B00835CDE /* Models.scnassets */,
 			);
 			path = AR_APP;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B665A85A1FA500CC00835CDE /* LaunchScreen.storyboard in Resources */,
+				B665A87F1FA6152B00835CDE /* Models.scnassets in Resources */,
 				B665A8571FA500CC00835CDE /* Assets.xcassets in Resources */,
 				B665A8551FA500CC00835CDE /* Main.storyboard in Resources */,
 			);
@@ -137,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B665A8521FA500CC00835CDE /* ViewController.swift in Sources */,
+				B665A8621FA601B100835CDE /* itemCell.swift in Sources */,
 				B665A8501FA500CC00835CDE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +283,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36FDYZWS56;
 				INFOPLIST_FILE = AR_APP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yyokii.AR-APP";
@@ -289,6 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36FDYZWS56;
 				INFOPLIST_FILE = AR_APP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yyokii.AR-APP";
